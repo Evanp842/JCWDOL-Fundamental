@@ -3,7 +3,7 @@
 
 // console.log(result + " km");
 
-const n: number = 20000; // cm
-const result: number = n / 20000;
+const n: number = 50000; // cm
+const result: number = n / 10000;
 
 console.log(result + " km");

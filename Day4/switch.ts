@@ -16,10 +16,10 @@ const letter: string = "The QuiCk BrOwN Fox"
 let result: string = ""
 
 for (let i = 0; i < letter.length; i ++) {
-    if (i == 0 || letter.charAt(i + 5) == " ") {
+    if (letter.charAt(i) === letter.charAt(i).toLowerCase()) {
         result += letter.charAt(i).toUpperCase();  
     } else { 
-        result += letter.charAt(i);
+        result += letter.charAt(i).toLowerCase();
     }
 }
 
